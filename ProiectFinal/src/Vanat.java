@@ -1,2 +1,5 @@
-public interface Vanat {
+public interface Vanat
+{
+    void esteVanat();
 }
+
