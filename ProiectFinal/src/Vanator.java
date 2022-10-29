@@ -1,2 +1,4 @@
-public interface Vanator {
+public interface Vanator
+{
+    void Vaneaza();
 }
