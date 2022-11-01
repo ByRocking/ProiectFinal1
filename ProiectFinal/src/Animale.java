@@ -4,6 +4,6 @@ public abstract class Animale
         System.out.println("Animalul s-a trezit!");
     }
     void somn() {
-        System.out.println("Animalul doarme!");
+        System.out.println("Animalul este joi!");
     }
 }
