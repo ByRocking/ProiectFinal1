@@ -2,12 +2,45 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MainPage {
     MainPage(){
         ArrayList<Leu> leu = new ArrayList<Leu>();
+        try {
+            File myObj = new File("Lei.txt");
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                int id = Integer.parseInt(myReader.nextLine());
+                String nume = myReader.nextLine();
+                int varsta = Integer.parseInt(myReader.nextLine());
+                double greutate = Double.parseDouble(myReader.nextLine());
+                leu.add(new Leu(id,nume,varsta,greutate));
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Eroare citire lei");
+        }
+
         ArrayList<Peste> peste = new ArrayList<Peste>();
+        try {
+            File myObj = new File("Pesti.txt");
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                int id = Integer.parseInt(myReader.nextLine());
+                String nume = myReader.nextLine();
+                int varsta = Integer.parseInt(myReader.nextLine());
+                double greutate = Double.parseDouble(myReader.nextLine());
+                peste.add(new Peste(id,nume,varsta,greutate));
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Eroare citire peste");
+        }
 
         MyFrame frame = new MyFrame();
         MyPanelLei panouLeu = new MyPanelLei();
@@ -96,6 +129,11 @@ public class MainPage {
                                 }
                                 if(ok) {
                                     leu.add(new Leu(id,varsta,greutate));
+                                    try {
+                                        MyLogging.scrieLogging("Un leu a fost adaugat");
+                                    } catch (IOException f) {
+
+                                    }
                                 }
                                 else
                                     JOptionPane.showMessageDialog(null,"Id ul exista deja","Eroare introducere leu", JOptionPane.WARNING_MESSAGE);
@@ -117,6 +155,11 @@ public class MainPage {
                                 }
                                 if(ok) {
                                     leu.add(new Leu(id,nume,varsta,greutate));
+                                    try {
+                                        MyLogging.scrieLogging("Un leu a fost adaugat");
+                                    } catch (IOException f) {
+
+                                    }
                                 }
                                 else
                                     JOptionPane.showMessageDialog(null,"Id ul exista deja","Eroare introducere leu", JOptionPane.WARNING_MESSAGE);
@@ -205,6 +248,11 @@ public class MainPage {
                                 }
                                 if(ok) {
                                     peste.add(new Peste(id,varsta,greutate));
+                                    try {
+                                        MyLogging.scrieLogging("Un peste a fost adaugat");
+                                    } catch (IOException f) {
+
+                                    }
                                 }
                                 else
                                     JOptionPane.showMessageDialog(null,"Id ul exista deja","Eroare introducere peste", JOptionPane.WARNING_MESSAGE);
@@ -226,6 +274,11 @@ public class MainPage {
                                 }
                                 if(ok) {
                                     peste.add(new Peste(id,nume,varsta,greutate));
+                                    try {
+                                        MyLogging.scrieLogging("Un peste a fost adaugat");
+                                    } catch (IOException f) {
+
+                                    }
                                 }
                                 else
                                     JOptionPane.showMessageDialog(null,"Id ul exista deja","Eroare introducere peste", JOptionPane.WARNING_MESSAGE);
