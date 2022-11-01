@@ -38,7 +38,11 @@ public class LaunchPage {
                     if(ID.equals(txtId.getText()) && PAROLA.equals(txtParola.getText())) {
                         frame.dispose();
                         MainPage page = new MainPage();
-                        //logging
+                        try {
+                            MyLogging.scrieLogging("Cineva s a logat");
+                        } catch (IOException f) {
+
+                        }
                     }
                     else
                         JOptionPane.showMessageDialog(null,"Id/parola gresita","Eroare logare", JOptionPane.ERROR_MESSAGE);
