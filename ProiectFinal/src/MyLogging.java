@@ -1,13 +1,15 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class MyLogging{
-    static FileWriter myWriter;
-    public MyLogging() throws IOException {
-        myWriter = new FileWriter("Logging.txt");
-    }
     static void scrieLogging(String string) throws IOException {
-        myWriter.append(string);
+        File file = new File("Logging.txt");
+        FileWriter fw = new FileWriter(file,true);
+        PrintWriter pw = new PrintWriter(fw);
+        pw.print(string + '\n');
+        pw.close();
+        System.out.println(string);
     }
 }
