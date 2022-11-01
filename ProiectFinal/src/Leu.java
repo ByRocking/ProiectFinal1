@@ -61,11 +61,13 @@ public class Leu extends Animale implements Vanator {
 
     @Override
     void trezirea() {
+        super.trezirea();
         System.out.println("Leul s-a trezit!");
     }
 
     @Override
     void somn() {
+        super.somn();
         System.out.println("Leul doarme!");
     }
 
