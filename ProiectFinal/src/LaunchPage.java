@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class LaunchPage {
 
@@ -37,7 +38,7 @@ public class LaunchPage {
                     if(ID.equals(txtId.getText()) && PAROLA.equals(txtParola.getText())) {
                         frame.dispose();
                         MainPage page = new MainPage();
-                        MyLogging.scrieLogging("Cineva s a logat");
+                        //logging
                     }
                     else
                         JOptionPane.showMessageDialog(null,"Id/parola gresita","Eroare logare", JOptionPane.ERROR_MESSAGE);
