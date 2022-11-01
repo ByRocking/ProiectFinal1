@@ -61,11 +61,13 @@ public class Peste extends Animale implements Vanator,Vanat {
 
     @Override
     void trezirea() {
+        super.trezirea();
         System.out.println("Pestele s-a trezit!");
     }
 
     @Override
     void somn() {
+        super.somn();
         System.out.println("Pestele doarme!");
     }
 
