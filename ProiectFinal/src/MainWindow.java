@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 public class MainWindow {
-    public static void main(String[] args) {//serdtgj
+    public static void main(String[] args) {//serdtgjjyhgbfv
         ArrayList<Leu> leu = new ArrayList<Leu>();
         ArrayList<Peste> peste = new ArrayList<Peste>();
 
