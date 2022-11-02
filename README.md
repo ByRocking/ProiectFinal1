@@ -6,7 +6,7 @@ Proiect realizat de Sofronia Andrei si Pogacean Marius.
 
 Diagrama UML: DiagramaUML.drawio (https://app.diagrams.net/)
 
-![Diagrama](https://user-images.githubusercontent.com/116893771/199483095-f0c9f8a7-3243-4ecc-b70a-390ed7261b27.png)
+![Diagrama](https://user-images.githubusercontent.com/116893771/199514806-a7eba71f-4b2a-4661-b2b8-8b4a6c1558aa.png)
 
 Prezentarea proiectului:
 
