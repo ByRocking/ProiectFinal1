@@ -25,3 +25,9 @@ Prezentarea proiectului:
 ![image](https://user-images.githubusercontent.com/116893771/199475161-79ac235f-6fe0-4cf8-83c5-4c5d011145f7.png)
 ![image](https://user-images.githubusercontent.com/116893771/199475356-59721205-4cca-4ace-a3c7-43e26c37cca4.png)
 
+- Prin butonul "Catre anunturi" se dezvaluie o clasa tip Singleton prin care utilizatorul poate afisa 4 mesaje cu ajutorul butoanelor din noua fereastra.
+- Anunturile sunt importate deoarece acestea provin din pachetul "Anunturi".
+
+![image](https://user-images.githubusercontent.com/116893771/199477039-038f342f-5f8f-4da5-ad03-c0267da7dabe.png)
+
+- Aceasta este aplicatia "Gradina Zoologica".
