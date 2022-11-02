@@ -17,4 +17,11 @@ Prezentarea proiectului:
 ![image](https://user-images.githubusercontent.com/116893771/199468838-8eecdfc2-199d-473e-a982-adea4f4378c1.png)
 ![image](https://user-images.githubusercontent.com/116893771/199470586-0e1bbdbf-1712-4737-997f-0d9765aebea4.png)
 
+- Se va creea un fisier de tip "Logging.txt" unde se vor inregistra anumite actiuni realizare de utilizator.
+- Dupa logare, utilizatorul va fi intampinat de "Panoul de comanda".
+- Aceasta gradina zoologica este specializata in mentinerea, intretinerea si expunerea a multor renumite specii faimoase de pesti si lei; Utilizatorul are abilitatea de a introduce in aplicatie noi pesti si lei prin completarea campurilor: "Id", "Nume", "Varsta si "Greutate"; Introducerea unui nou animal este realizata cu succes doar daca fiecare camp indeplineste cerintele programatorului, in caz contrar utilizatorul va fi intampinat de o fereastra modala pentru a semnala eroarea de logare.
+- Pentru a vedea toate animalele ce sunt prezente in gradina zoologica, utilizatorul poate folosi butoanele "Afiseaza".
+
+![image](https://user-images.githubusercontent.com/116893771/199475161-79ac235f-6fe0-4cf8-83c5-4c5d011145f7.png)
+![image](https://user-images.githubusercontent.com/116893771/199475356-59721205-4cca-4ace-a3c7-43e26c37cca4.png)
 
