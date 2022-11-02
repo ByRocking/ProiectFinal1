@@ -6,6 +6,8 @@ Proiect realizat de Sofronia Andrei si Pogacean Marius.
 
 Diagrama UML: DiagramaUML.drawio (https://app.diagrams.net/)
 
+![Diagrama](https://user-images.githubusercontent.com/116893771/199479419-cc7ab3cc-150f-45f5-9311-8e3de1368d1c.png)
+
 Prezentarea proiectului:
 
 - In momentul rularii programului, utilizatorul va fi intampinat de "Fereastra de logare".
